@@ -289,8 +289,8 @@ def main():
             file_writing_obj1.write(str(validation_log))
         t5 = time.time()
 
-        # print('Training:', t4 - t3)
-        # print('Validation:', t5 - t4)
+        print('Training:', t4 - t3)
+        print('Validation:', t5 - t4)
 
 
 if __name__ == '__main__':
